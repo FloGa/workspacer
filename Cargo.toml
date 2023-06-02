@@ -19,7 +19,7 @@ members = [
 ]
 
 [workspace.dependencies]
-add = { version = "0.1.0-SNAPSHOT", path = "add" }
-sub = { version = "0.1.0-SNAPSHOT", path = "sub" }
-mul = { version = "0.1.0-SNAPSHOT", path = "mul" }
-div = { version = "0.1.0-SNAPSHOT", path = "div" }
+add = { version = "0.1.0-RC", path = "add" }
+sub = { version = "0.1.0-RC", path = "sub" }
+mul = { version = "0.1.0-RC", path = "mul" }
+div = { version = "0.1.0-RC", path = "div" }
