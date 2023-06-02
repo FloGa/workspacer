@@ -8,7 +8,7 @@ version = "0.1.0-RC"
 
 [[package]]
 name = "calculator"
-version = "0.1.0-RC"
+version = "0.1.0"
 dependencies = [
  "add",
  "div",
