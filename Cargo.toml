@@ -1,0 +1,25 @@
+[package]
+name = "calculator"
+version = "0.1.0-SNAPSHOT"
+authors = ["Florian Gamböck <mail@floga.de>"]
+edition = "2021"
+
+[dependencies]
+add.workspace = true
+sub.workspace = true
+mul.workspace = true
+div.workspace = true
+
+[workspace]
+members = [
+    "add",
+    "sub",
+    "mul",
+    "div",
+]
+
+[workspace.dependencies]
+add = { version = "0.1.0-SNAPSHOT", path = "add" }
+sub = { version = "0.1.0-SNAPSHOT", path = "sub" }
+mul = { version = "0.1.0-SNAPSHOT", path = "mul" }
+div = { version = "0.1.0-SNAPSHOT", path = "div" }
