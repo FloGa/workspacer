@@ -4,7 +4,7 @@ version = 3
 
 [[package]]
 name = "add"
-version = "0.1.0"
+version = "0.2.0-SNAPSHOT"
 
 [[package]]
 name = "calculator"
@@ -18,12 +18,12 @@ dependencies = [
 
 [[package]]
 name = "div"
-version = "0.2.0"
+version = "0.3.0-SNAPSHOT"
 
 [[package]]
 name = "mul"
-version = "0.1.0"
+version = "0.2.0-SNAPSHOT"
 
 [[package]]
 name = "sub"
-version = "0.1.0"
+version = "0.2.0-SNAPSHOT"
