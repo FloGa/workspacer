@@ -18,7 +18,7 @@ dependencies = [
 
 [[package]]
 name = "div"
-version = "0.2.0-RC"
+version = "0.2.0"
 
 [[package]]
 name = "mul"
