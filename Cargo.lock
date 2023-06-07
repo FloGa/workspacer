@@ -12,6 +12,7 @@ version = "0.3.0-SNAPSHOT"
 dependencies = [
  "add",
  "div",
+ "dummy",
  "mul",
  "sub",
 ]
@@ -19,6 +20,10 @@ dependencies = [
 [[package]]
 name = "div"
 version = "0.3.0-SNAPSHOT"
+
+[[package]]
+name = "dummy"
+version = "0.1.0-SNAPSHOT"
 
 [[package]]
 name = "mul"
