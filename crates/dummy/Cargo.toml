@@ -1,7 +1,8 @@
 [package]
 name = "dummy"
-version = "0.1.0-SNAPSHOT"
+version = "0.0.0"
 authors = ["Florian Gamböck <mail@floga.de>"]
 edition = "2021"
+publish = false
 
 [dependencies]

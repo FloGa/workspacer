@@ -20,8 +20,11 @@ members = [
 ]
 
 [workspace.dependencies]
+# Public members
 add = { version = "0.2.0-SNAPSHOT", path = "add" }
 sub = { version = "0.2.0-SNAPSHOT", path = "sub" }
 mul = { version = "0.2.0-SNAPSHOT", path = "mul" }
 div = { version = "0.3.0-SNAPSHOT", path = "div" }
-dummy = { version = "0.1.0-SNAPSHOT", path = "crates/dummy" }
+
+# Interal members
+dummy = { version = "0.0.0", path = "crates/dummy" }
