@@ -1,6 +1,6 @@
 [package]
 name = "calculator"
-version = "0.4.0-SNAPSHOT"
+version = "0.4.0-RC"
 authors = ["Florian Gamböck <mail@floga.de>"]
 edition = "2021"
 
@@ -22,10 +22,10 @@ dummy.workspace = true
 
 [workspace.dependencies]
 # Public members
-add = { version = "0.2.0-SNAPSHOT", path = "add" }
-sub = { version = "0.2.0-SNAPSHOT", path = "sub" }
-mul = { version = "0.3.0-SNAPSHOT", path = "mul" }
-div = { version = "0.3.0-SNAPSHOT", path = "div" }
+add = { version = "0.2.0-RC", path = "add" }
+sub = { version = "0.2.0-RC", path = "sub" }
+mul = { version = "0.3.0-RC", path = "mul" }
+div = { version = "0.3.0-RC", path = "div" }
 
 # Interal members
 dummy = { version = "0.0.0", path = "crates/dummy" }
