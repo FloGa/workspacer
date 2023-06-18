@@ -1,6 +1,6 @@
 [package]
 name = "calculator"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Florian Gamböck <mail@floga.de>"]
 edition = "2021"
 
@@ -9,17 +9,23 @@ add.workspace = true
 sub.workspace = true
 mul.workspace = true
 div.workspace = true
+dummy.workspace = true
 
-[workspace]
-members = [
-    "add",
-    "sub",
-    "mul",
-    "div",
-]
+# Not necessary, since path dependencies are automatically members!
+#[workspace]
+#members = [
+#    "add",
+#    "sub",
+#    "mul",
+#    "div",
+#]
 
 [workspace.dependencies]
+# Public members
 add = { version = "0.1.0", path = "add" }
 sub = { version = "0.1.0", path = "sub" }
-mul = { version = "0.1.0", path = "mul" }
+mul = { version = "0.2.0", path = "mul" }
 div = { version = "0.2.0", path = "div" }
+
+# Interal members
+dummy = { version = "0.0.0", path = "crates/dummy" }
