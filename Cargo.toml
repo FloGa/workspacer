@@ -11,13 +11,14 @@ mul.workspace = true
 div.workspace = true
 dummy.workspace = true
 
-[workspace]
-members = [
-    "add",
-    "sub",
-    "mul",
-    "div",
-]
+# Not necessary, since path dependencies are automatically members!
+#[workspace]
+#members = [
+#    "add",
+#    "sub",
+#    "mul",
+#    "div",
+#]
 
 [workspace.dependencies]
 # Public members
