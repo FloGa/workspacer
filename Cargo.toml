@@ -22,10 +22,10 @@ dummy.workspace = true
 
 [workspace.dependencies]
 # Public members
-add = { version = "0.3.0-RC", path = "add" }
-sub = { version = "0.3.0-RC", path = "sub" }
-mul = { version = "0.4.0-RC", path = "mul" }
-div = { version = "0.4.0-RC", path = "div" }
+add = { version = "0.3.0", path = "add" }
+sub = { version = "0.3.0", path = "sub" }
+mul = { version = "0.4.0", path = "mul" }
+div = { version = "0.4.0", path = "div" }
 
 # Interal members
 dummy = { version = "0.0.0", path = "crates/dummy" }
