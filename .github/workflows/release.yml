@@ -3,12 +3,9 @@ name: Release
 on:
   push:
     branches:
-      - '**'
+      - main
       - 'hotfix/**'
       - 'release/**'
-    tags-ignore:
-      - '_**'
-      - '**-**'
 
   workflow_dispatch:
 
